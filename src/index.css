@@ -1,0 +1,78 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    font-family: 'Inter', sans-serif;
+  }
+  
+  /* Mobile optimizations */
+  @media (max-width: 640px) {
+    .container-custom {
+      padding-left: 1rem;
+      padding-right: 1rem;
+    }
+    
+    h1, h2, h3 {
+      line-height: 1.2;
+    }
+    
+    p {
+      line-height: 1.5;
+    }
+    
+    /* Reduce section padding on mobile */
+    .section-padding {
+      padding-top: 3rem;
+      padding-bottom: 3rem;
+    }
+    
+    /* Ensure touch targets are large enough */
+    button, a {
+      min-height: 44px;
+    }
+    
+    /* Better text readability */
+    body {
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+    }
+  }
+  
+  /* Small mobile devices */
+  @media (max-width: 480px) {
+    .section-padding {
+      padding-top: 2rem;
+      padding-bottom: 2rem;
+    }
+    
+    .container-custom {
+      padding-left: 0.75rem;
+      padding-right: 0.75rem;
+    }
+  }
+}
+
+@layer components {
+  .gradient-text {
+    background: linear-gradient(45deg, #f59e0b, #fbbf24, #fcd34d);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+  
+  .section-padding {
+    @apply py-16 md:py-24;
+  }
+  
+  .container-custom {
+    @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
+  }
+}
