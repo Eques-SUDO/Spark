@@ -7,8 +7,8 @@ const NosClients = () => {
     // Startup & Tech Clients
     {
       name: 'Taxi Sahbi',
-      logo: '/img/TAXI SAHBI.jpg',
-      description: 'Plateforme marocaine VTC. Projet complet : naming, branding, campagnes "Ana Ti9a", stratégie d\'acquisition et app storytelling. Une référence nationale.',
+      logo: '/img/TAXI SAHBI LOGO FR.jpg',
+      description: 'Application de taxi 100% marocaine. Projet complet : naming, branding, stratégie d\'acquisition digitale et app storytelling. Une référence nationale.',
       image: '/img/taxisahbi.png',
       services: ['Naming & branding', 'Campagnes UGC', 'Stratégie acquisition'],
       socialMedia: {

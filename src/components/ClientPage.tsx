@@ -1,5 +1,5 @@
 import React from 'react'
-import { ArrowLeft, ExternalLink, Instagram, Facebook, Linkedin, Globe, Youtube } from 'lucide-react'
+import { ArrowLeft, ExternalLink, Instagram, Facebook, Linkedin, Youtube } from 'lucide-react'
 import { Link } from 'react-router-dom'
 
 // Custom TikTok Icon Component
@@ -119,7 +119,7 @@ const ClientPage: React.FC<ClientPageProps> = ({ sectorName, sectorIcon: SectorI
                           rel="noopener noreferrer"
                           className="w-8 h-8 bg-gray-100 rounded-full flex items-center justify-center hover:bg-gray-200 transition-colors"
                         >
-                          <Globe className="w-4 h-4 text-gray-600" />
+                          <ExternalLink className="w-4 h-4 text-gray-600" />
                         </a>
                       )}
                       {client.socialMedia.instagram && (

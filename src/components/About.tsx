@@ -34,17 +34,18 @@ const About = () => {
   ]
 
   const images = [
-    '/img/spark-01.jpeg',
-    '/img/spark-02.jpeg',
-    '/img/spark-03.jpeg',
-    '/img/spark-04.jpeg', // .jpeg image
-    '/img/spark-05.jpeg'
+    '/img/_DSF3019.png',
+    '/img/_DSF3279.png',
+    '/img/_DSF3472.png',
+    '/img/_DSF3500.png',
+    '/img/_DSF3506.jpg'
   ]
 
   const videoUrls = [
     'https://www.youtube.com/shorts/3Kog7ozW2ko',
     'https://www.youtube.com/shorts/kwlxi2GqEis',
-    'https://www.youtube.com/shorts/OS18CH7wbCI'
+    'https://www.youtube.com/shorts/OS18CH7wbCI',
+    'https://www.youtube.com/shorts/mQNYIamF8cI'
   ]
 
   return (
@@ -57,7 +58,7 @@ const About = () => {
               Qui sommes‑nous ?
             </h2>
             <p className="text-sm sm:text-base md:text-lg text-gray-600 mb-6 md:mb-8 leading-relaxed">
-              <strong className="text-yellow-600">Spark Agency</strong> est l'entité Marketing & Communication 360° de{' '}
+              <strong className="text-blue-600">Spark</strong> <strong className="text-yellow-500">Morocco</strong> est l'entité Marketing & Communication 360° de{' '}
               <strong className="text-amber-600">Marnova Holding</strong>, un écosystème marocain dédié à l'innovation, 
               à l'événementiel et au conseil stratégique.
             </p>
@@ -87,9 +88,9 @@ const About = () => {
               </p>
             </div>
             <img 
-              src="/img/spark-01.jpeg"
+              src="/img/_DSF3572.png"
               alt="Team collaboration"
-              className="rounded-2xl mt-6 shadow-xl w-full h-64 object-cover"
+              className="rounded-2xl mt-6 shadow-xl w-full h-96 object-cover"
             />
           </div>
         </div>
@@ -102,12 +103,12 @@ const About = () => {
               {images.map((img, index) => (
                 <div
                   key={index}
-                  className="flex-shrink-0 w-[250px] md:w-[280px] lg:w-[300px] rounded-2xl overflow-hidden shadow-md"
+                  className="flex-shrink-0 w-[200px] md:w-[240px] lg:w-[280px] rounded-2xl overflow-hidden shadow-md"
                 >
                   <img
                     src={img}
                     alt={`Spark ${index + 1}`}
-                    className="w-full h-48 object-cover transition-transform duration-300 hover:scale-105"
+                    className="w-full h-72 md:h-80 lg:h-96 object-cover transition-transform duration-300 hover:scale-105"
                   />
                 </div>
               ))}
@@ -117,8 +118,29 @@ const About = () => {
 
         {/* Video Carousel Section */}
         {videoUrls.length > 0 && (
-          <div className="mt-16">
-            <VideoCarousel videos={videoUrls} vertical={true} />
+          <div className="mt-20 relative">
+            {/* Decorative gradient background */}
+            <div className="absolute inset-0 bg-gradient-to-br from-yellow-50 via-amber-50 to-orange-50 rounded-3xl -z-10 transform scale-105 blur-3xl opacity-70"></div>
+            
+            {/* Section header with enhanced styling */}
+            <div className="text-center mb-8">
+              <div className="inline-flex items-center mb-4">
+                <div className="h-px w-12 bg-gradient-to-r from-transparent to-amber-400"></div>
+                <span className="mx-4 text-sm font-semibold text-amber-600 uppercase tracking-wider">Découvrez</span>
+                <div className="h-px w-12 bg-gradient-to-l from-transparent to-amber-400"></div>
+              </div>
+              <h3 className="text-2xl sm:text-3xl md:text-4xl font-bold bg-gradient-to-r from-yellow-600 to-amber-600 bg-clip-text text-transparent mb-3">
+                Notre Univers Créatif
+              </h3>
+              <p className="text-base md:text-lg text-gray-600 max-w-2xl mx-auto">
+                Plongez dans nos dernières réalisations et découvrez comment nous transformons les idées en expériences visuelles captivantes
+              </p>
+            </div>
+            
+            {/* Video carousel with enhanced container */}
+            <div className="bg-white/80 backdrop-blur-sm rounded-2xl p-6 shadow-xl border border-amber-100">
+              <VideoCarousel videos={videoUrls} vertical={true} />
+            </div>
           </div>
         )}
       </div>

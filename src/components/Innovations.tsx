@@ -25,7 +25,7 @@ const Innovations = () => {
       icon: GraduationCap,
       title: 'Formations & coaching C-level',
       items: [
-        'Bootcamps branding intensifs',
+        'Bootcamps branding  intensifs',
         'Media training dirigeants',
         'Architecture digitale de marque'
       ]

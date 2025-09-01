@@ -24,7 +24,7 @@ const Contact = () => {
         </div>
 
         <div className="max-w-4xl mx-auto px-4">
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 md:gap-8 mb-8 md:mb-12">
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 md:gap-8 mb-8 md:mb-12 max-w-2xl mx-auto">
             <div className="text-center animate-slide-up">
               <div className="w-12 h-12 sm:w-14 sm:h-14 md:w-16 md:h-16 bg-white/20 rounded-full flex items-center justify-center mx-auto mb-3 md:mb-4">
                 <Mail className="w-6 h-6 sm:w-7 sm:h-7 md:w-8 md:h-8" />
@@ -45,22 +45,12 @@ const Contact = () => {
               </a>
             </div>
 
-            <div className="text-center animate-slide-up" style={{ animationDelay: '0.2s' }}>
-              <div className="w-12 h-12 sm:w-14 sm:h-14 md:w-16 md:h-16 bg-white/20 rounded-full flex items-center justify-center mx-auto mb-3 md:mb-4">
-                <MapPin className="w-6 h-6 sm:w-7 sm:h-7 md:w-8 md:h-8" />
-              </div>
-              <h3 className="font-semibold mb-2 text-sm sm:text-base">Adresse</h3>
-              <p className="text-sm sm:text-base md:text-lg">
-                Groupe Marnova Holding<br />
-                Rabat
-              </p>
-            </div>
           </div>
 
           <div className="w-full max-w-2xl mx-auto mb-12 animate-slide-up" style={{ animationDelay: '0.3s' }}>
             <div className="rounded-2xl overflow-hidden bg-white/10 backdrop-blur-sm p-1">
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3307.0704789564!2d-6.8497157!3d33.9963459!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xda76d3bd785560b%3A0xbf097bfa09609a9b!2sGroupe%20Marnova%20Holding%20Rabat!5e0!3m2!1sen!2sma!4v1707950000000!5m2!1sen!2sma"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1071.9999999999998!2d-7.6337009!3d33.5905346!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xda7d3f9dd71dea3%3A0xf4b70fe97b437795!2sGroupe%20Marnova%20Holding!5e0!3m2!1sen!2sma!4v1707950000000!5m2!1sen!2sma"
                 width="100%"
                 height="300"
                 style={{ border: 0 }}

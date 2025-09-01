@@ -15,7 +15,7 @@ const Footer = () => {
           </div>
 
           <div className="flex items-center space-x-2 text-gray-400">
-            <Sparkles className="w-4 h-4" />
+            <Sparkles className="w-4 h-4" />   
             <span className="text-sm">Powered by Marnova Holding</span>
           </div>
         </div>

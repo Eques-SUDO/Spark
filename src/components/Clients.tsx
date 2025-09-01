@@ -104,7 +104,7 @@ const Clients = () => {
       clients: [
         {
           name: 'Taxi Sahbi',
-          description: 'Plateforme marocaine VTC. Projet complet : naming, branding, campagnes "Ana Ti9a", stratégie d\'acquisition et app storytelling. Une référence nationale.',
+          description: 'Application de taxi 100% marocaine. Projet complet : naming, branding, stratégie d\'acquisition digitale et app storytelling. Une référence nationale.',
           image: 'https://images.pexels.com/photos/4386321/pexels-photo-4386321.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop',
           services: ['Naming & branding', 'Campagnes UGC', 'Stratégie acquisition']
         },

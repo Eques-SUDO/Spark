@@ -162,7 +162,7 @@ layout: section
     <carbon:taxi class="text-2xl text-yellow-600"/>
   </div>
   <h3 class="font-bold">Taxi Sahbi</h3>
-  <p class="text-sm text-gray-600">App VTC 100% marocaine</p>
+  <p class="text-sm text-gray-600">Service de taxi 100% marocain</p>
 </div>
 
 <div v-click class="text-center">
@@ -192,7 +192,7 @@ layout: two-cols
 <div class="space-y-4">
 
 **Contexte**  
-Besoin d'un positionnement unique face aux VTC internationaux
+Besoin d'un positionnement unique face aux services de transport internationaux
 
 **Solutions Spark**
 - Naming & identité visuelle

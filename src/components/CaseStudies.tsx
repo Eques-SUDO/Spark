@@ -4,29 +4,9 @@ import { TrendingUp, Users, Star, CheckCircle, Target, Zap, Eye, UserPlus, Messa
 const CaseStudies = () => {
   const caseStudies = [
     {
-      title: 'Le Mario',
-      subtitle: 'Vapes & Snacks',
-      context: 'Boutique moderne offrant une large gamme de vapes et de snacks variés pour tous les goûts',
-      solutions: [
-        'Stratégie de contenu ciblée',
-        'Optimisation des visuels',
-        'Gestion active de la communauté',
-        'Campagne Instagram (Mai-Juillet)'
-      ],
-      metrics: [
-        { label: 'Vues totales', value: '+746.7%', icon: Eye, detail: '2.8M vues' },
-        { label: 'Couverture', value: '735K', icon: Users, detail: 'personnes' },
-        { label: 'Nouveaux abonnés', value: '+1,672', icon: UserPlus, detail: '+185.5%' }
-      ],
-      image: '/img/LEMARIO.JPG',
-      gradient: 'from-purple-600 to-pink-600',
-      bgGradient: 'from-purple-50 to-pink-50',
-      accentColor: 'text-purple-700'
-    },
-    {
       title: 'Taxi Sahbi',
-      subtitle: 'Application VTC Marocaine',
-      context: 'Besoin d\'un positionnement unique face aux VTC internationaux',
+      subtitle: 'Service de Taxi Marocain',
+      context: 'Besoin d\'un positionnement unique face aux services de transport internationaux',
       solutions: [
         'Naming & identité visuelle',
         'UX storytelling',
@@ -38,50 +18,10 @@ const CaseStudies = () => {
         { label: 'CAC', value: '÷2', icon: Target, detail: 'optimisé' },
         { label: 'Rating', value: '4.6/5', icon: Star, detail: 'app stores' }
       ],
-      image: '/img/TAXI SAHBI.jpg',
+      image: '/img/TAXI SAHBI LOGO FR.jpg',
       gradient: 'from-yellow-600 to-amber-600',
       bgGradient: 'from-yellow-50 to-amber-50',
       accentColor: 'text-yellow-700'
-    },
-    {
-      title: 'Safar Dream',
-      subtitle: 'Plateforme de Voyage IA',
-      context: 'Positionner la plateforme de voyage IA sur les réseaux sociaux et créer une communauté engagée',
-      solutions: [
-        'Stratégie de contenu engageante',
-        'Optimisation continue des publications',
-        'Croissance organique ciblée',
-        'Conversion via réseaux sociaux'
-      ],
-      metrics: [
-        { label: 'Vues totales', value: '+734.7%', icon: Eye, detail: '2.3M vues' },
-        { label: 'Couverture', value: '1M+', icon: Users, detail: 'personnes' },
-        { label: 'Nouveaux abonnés', value: '+2,169', icon: UserPlus, detail: '+109%' }
-      ],
-      image: '/img/SAFARDREAM.jpg',
-      gradient: 'from-blue-600 to-cyan-600',
-      bgGradient: 'from-blue-50 to-cyan-50',
-      accentColor: 'text-blue-700'
-    },
-    {
-      title: 'Yel Tech',
-      subtitle: 'Intégrateur Odoo BTP',
-      context: 'Renforcer la présence B2B de l\'intégrateur Odoo BTP et générer des leads qualifiés',
-      solutions: [
-        'Stratégie de contenu B2B cohérente',
-        'Campagne de consultation gratuite',
-        'Optimisation continue des performances',
-        'Conversion d\'audience en leads'
-      ],
-      metrics: [
-        { label: 'Vues totales', value: '+180%', icon: Eye, detail: '1.6M vues' },
-        { label: 'Messages', value: '140', icon: MessageSquare, detail: 'en 15 jours' },
-        { label: 'Nouveaux abonnés', value: '+474', icon: UserPlus, detail: 'B2B' }
-      ],
-      image: '/img/YELTECH.jpg',
-      gradient: 'from-orange-600 to-red-600',
-      bgGradient: 'from-orange-50 to-red-50',
-      accentColor: 'text-orange-700'
     },
     {
       title: 'Moussem 2024',
